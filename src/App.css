@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+.parent-box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.child {
+  width: 200px;
+  border: 1px solid rgb(210, 210, 210);
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin: 10px 0px;
+  border-radius: 6px;
+  border: 1px solid rgb(191, 189, 189);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid grey;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgb(119, 119, 121);
+  cursor: pointer;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.setRed {
+  color: red;
+}
+.setGreen {
+  color: green;
+}
